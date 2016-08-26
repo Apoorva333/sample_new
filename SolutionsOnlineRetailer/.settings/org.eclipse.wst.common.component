@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SolutionsOnlineRetailer">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="SolutionsOnlineRetailerJPA.jar" deploy-path="/lib" handle="module:/resource/SolutionsOnlineRetailerJPA/SolutionsOnlineRetailerJPA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SolutionsOnlineRetailerEJB.jar" deploy-path="/" handle="module:/resource/SolutionsOnlineRetailerEJB/SolutionsOnlineRetailerEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SolutionsOnlineRetailerEJBClient.jar" deploy-path="/" handle="module:/resource/SolutionsOnlineRetailerEJBClient/SolutionsOnlineRetailerEJBClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SolutionsOnlineRetailerAppClient.jar" deploy-path="/" handle="module:/resource/SolutionsOnlineRetailerAppClient/SolutionsOnlineRetailerAppClient">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="SolutionsOnlineRetailerWeb.war" deploy-path="/" handle="module:/resource/SolutionsOnlineRetailerWeb/SolutionsOnlineRetailerWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
